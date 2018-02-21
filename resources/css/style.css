@@ -46,6 +46,8 @@ header nav {
   display: flex;
   border: 1px solid black;
   padding-top: 116px;
+  justify-content: center;
+  width: 100%;
 }
 
 /* Large Story*/
@@ -87,12 +89,36 @@ header nav {
   width: 300px;
   display: flex;
   border: 1px solid black;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-right:20px;
 }
+
+.medium-topcontent {
+    border: 1px solid black;
+  }
+
+.medium-bottomcontent {
+    border: 1px solid black;
+  }
+
+.medium-image1 {
+    border: 1px solid black;
+  }
 
 /* Small Story*/
 
 .column.small {
   width: 240px;
   display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+}
+
+.small-image1 {
+  border: 1px solid black;
+  }
+
+.small-middlecontent {
   border: 1px solid black;
 }
