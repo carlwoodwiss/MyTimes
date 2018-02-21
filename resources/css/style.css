@@ -1,4 +1,6 @@
-
+* {
+  margin: 0;
+}
 /* Header and Nav*/
 
 header {
@@ -61,26 +63,63 @@ header nav {
 
 .large-image1 {
   border: 1px solid black;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  height: 300px;
+}
+
+.large-image1 span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+
 }
 
 .large-image2 {
   border: 1px solid black;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png);
+  height: 300px;
+}
+
+.large-image2 span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .large-image3 {
   border: 1px solid black;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png);
+  height: 300px;
+}
+
+.large-image3 span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 
 .large-topcontent {
   border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .large-middlecontent {
   border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 .large-bottomcontent {
   border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
 
 /* Medium Story*/
@@ -96,15 +135,30 @@ header nav {
 
 .medium-topcontent {
     border: 1px solid black;
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
   }
 
 .medium-bottomcontent {
     border: 1px solid black;
+    font-family: Georgia;
+    font-size: 17px;
+    color: black;
   }
 
 .medium-image1 {
     border: 1px solid black;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png);
+    height: 300px;
   }
+
+.medium-image1 span {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
 
 /* Small Story*/
 
@@ -121,4 +175,7 @@ header nav {
 
 .small-middlecontent {
   border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
