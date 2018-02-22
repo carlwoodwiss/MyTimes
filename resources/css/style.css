@@ -81,6 +81,8 @@ header nav {
   width: 300px;
   text-align: center;
   margin-bottom: 20px;
+  order: 1;
+  margin-top: 20px;
 }
 
 .large-image2 span {
@@ -96,6 +98,8 @@ header nav {
   width: 300px;
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 20px;
+  order: 1;
 }
 
 .large-image3 span {
@@ -124,19 +128,14 @@ header nav {
   font-size: 17px;
   color: black;
   width: 300px;
+  display: block;
 }
 
 .largecolumnleft {
   display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 17px;
-  flex-direction: column-reverse;
-}
-
-.largecolumnright {
-  display: flex;
-  margin-top: 17px;
-  flex-direction: column-reverse;
 }
 
 /* Medium Story*/
@@ -184,11 +183,37 @@ header nav {
   flex-direction: column;
 }
 
-.small-image1 {
-  }
+.small-middlecontent h2 {
+  padding-bottom: 50px;
+  font-size: 16px;
+  font-weight: bold;
+}
 
 .small-middlecontent {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  text-align: center;
+
+}
+
+.small-middlecontent p {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid black;
+}
+
+/*footer*/
+
+footer {
+  height: 325px;
+  width: 100%;
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
 }
